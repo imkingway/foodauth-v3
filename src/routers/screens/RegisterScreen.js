@@ -15,10 +15,10 @@ const db = firebase.default.database();
 
 export default class App extends React.Component {
   state = {
-    email: 'aaajjjhuiujjudeislfalkdkfdadjjsjaadf@gmail.com',
-    password: '111111',
-    confirmpassword: '111111',
-    name: 'adf',
+    email: '',
+    password: '',
+    confirmpassword: '',
+    name: '',
   };
 
   signUp = () => {
@@ -30,7 +30,7 @@ export default class App extends React.Component {
           .set({
             name: this.state.name,
             email: this.state.email,
-          })
+          }) 
           .then(() => {
             this.props.navigation.goBack();
           })

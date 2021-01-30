@@ -8,3 +8,6 @@ export { default as HomeScreen } from './screens/HomeScreen'
 
 export { default as RegisterScreen } from './screens/RegisterScreen'
 
+export { default as CameraScreen } from './screens/CameraScreen'
+
+export { default as ProfileScreen } from './screens/ProfileScreen'

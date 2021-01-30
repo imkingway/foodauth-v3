@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.appfrontendp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\user\Documents\foodauth-v3\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\user\Documents\foodauth-v3\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
+12-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:4:3-72
+12-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:4:20-69
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:5:3-83
+13-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:5:20-80
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:6:3-79
+14-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:6:20-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:7:3-77
+15-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:7:20-74
+16    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+16-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:8:3-77
+16-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:8:20-74
+17    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+17-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:9:3-75
+17-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:9:20-72
+18    <uses-permission android:name="android.permission.BODY_SENSORS" />
+18-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:10:3-69
+18-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:10:20-66
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:11:3-67
+19-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:11:20-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:12:3-63
+20-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:12:20-60
+21    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+21-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:13:3-69
+21-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:13:20-66
+22    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+22-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:14:3-79
+22-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:14:20-76
+23    <uses-permission android:name="android.permission.READ_CALENDAR" />
+23-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:15:3-70
+23-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:15:20-67
+24    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+24-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:16:3-70
+24-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:16:20-67
+25    <uses-permission android:name="android.permission.READ_CONTACTS" />
+25-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:17:3-70
+25-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:17:20-67
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:18:3-78
+26-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:18:20-75
+27    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+27-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:19:3-75
+27-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:19:20-72
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:20:3-73
+28-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:20:20-70
+29    <uses-permission android:name="android.permission.READ_SMS" />
+29-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:21:3-65
+29-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:21:20-62
+30    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+30-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:22:3-68
+30-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:22:20-65
+31    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+31-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:23:3-68
+31-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:23:20-65
+32    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+32-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:24:3-73
+32-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:24:20-70
+33    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+33-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:25:3-69
+33-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:25:20-66
+34    <uses-permission android:name="android.permission.SEND_SMS" />
+34-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:26:3-65
+34-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:26:20-62
+35    <uses-permission android:name="android.permission.USE_SIP" />
+35-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:27:3-64
+35-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:27:20-61
+36    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+36-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:28:3-71
+36-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:28:20-68
+37    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+37-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:29:3-71
+37-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:29:20-68
+38    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+38-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:30:3-71
+38-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:30:20-68
+39    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+39-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:31:3-79
+39-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:31:20-76
+40    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
+40-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:32:3-84
+40-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:32:20-81
+41    <uses-permission android:name="android.permission.VIBRATE" />
+41-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:33:3-64
+41-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:33:20-61
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->[com.facebook.flipper:flipper:0.54.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:15:5-67
+42-->[com.facebook.flipper:flipper:0.54.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:15:22-64
+43    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+43-->[com.facebook.flipper:flipper:0.54.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:16:5-76
+43-->[com.facebook.flipper:flipper:0.54.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\75238863e6b45aca4b9c498f6fefb9f4\flipper-0.54.0\AndroidManifest.xml:16:22-73
+44
+45    <uses-feature
+45-->[:react-native-camera] C:\Users\user\Documents\foodauth-v3\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+46        android:name="android.hardware.camera"
+46-->[:react-native-camera] C:\Users\user\Documents\foodauth-v3\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+47        android:required="false" />
+47-->[:react-native-camera] C:\Users\user\Documents\foodauth-v3\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+48    <uses-feature
+48-->[:react-native-camera] C:\Users\user\Documents\foodauth-v3\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+49        android:name="android.hardware.camera.autofocus"
+49-->[:react-native-camera] C:\Users\user\Documents\foodauth-v3\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+50        android:required="false" />
+50-->[:react-native-camera] C:\Users\user\Documents\foodauth-v3\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+51
+52    <application
+52-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:35:5-54:19
+53        android:name="com.appfrontendp.MainApplication"
+53-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:36:7-38
+54        android:allowBackup="false"
+54-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:40:7-34
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\57a7755ec7f8569f8e81b10deb53e9cc\core-1.1.0\AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:38:7-41
+58        android:label="@string/app_name"
+58-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:37:7-39
+59        android:roundIcon="@mipmap/ic_launcher_round"
+59-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:39:7-52
+60        android:theme="@style/AppTheme"
+60-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:41:7-38
+61        android:usesCleartextTraffic="true" >
+61-->C:\Users\user\Documents\foodauth-v3\android\app\src\debug\AndroidManifest.xml:7:18-53
+62        <activity
+62-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:42:7-52:18
+63            android:name="com.appfrontendp.MainActivity"
+63-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:43:9-37
+64            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+64-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:45:9-86
+65            android:label="@string/app_name"
+65-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:44:9-41
+66            android:launchMode="singleTask"
+66-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:46:9-40
+67            android:windowSoftInputMode="adjustResize" >
+67-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:47:9-51
+68            <intent-filter>
+68-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:48:9-51:25
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:49:13-65
+69-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:49:21-62
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:50:13-73
+71-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:50:23-70
+72            </intent-filter>
+73        </activity>
+74        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+74-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:53:7-84
+74-->C:\Users\user\Documents\foodauth-v3\android\app\src\main\AndroidManifest.xml:53:17-81
+75        <activity
+75-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+76            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+76-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+77            android:excludeFromRecents="true"
+77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+80        <!--
+81            Service handling Google Sign-In user revocation. For apps that do not integrate with
+82            Google Sign-In, this service will never be started.
+83        -->
+84        <service
+84-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+85            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+85-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+86            android:exported="true"
+86-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+87            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+87-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+88            android:visibleToInstantApps="true" />
+88-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ab5b39a498096e72ba8ed65127cbe895\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\207e446c2fa09137691809e6a8cbeffa\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+97            android:authorities="com.appfrontendp.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+101
+102        <service
+102-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:34:13-84
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:36:13-37
+106
+107            <!--
+108                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+109                clients to use it as well, by defining this registrar in their own core/common library.
+110            -->
+111            <meta-data
+111-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+112                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+112-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\133e88f4b8ae9101192f45bfe71602cc\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+114        </service>
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73722216fb6fc7a042e5c04b32a7e6d0\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73722216fb6fc7a042e5c04b32a7e6d0\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73722216fb6fc7a042e5c04b32a7e6d0\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+119    </application>
+120
+121</manifest>

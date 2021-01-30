@@ -1,15 +1,15 @@
 import React from 'react';
-import { Image, Button, View } from 'react-native';
+import { Image, Button } from 'react-native';
 import Onboarding from 'react-native-onboarding-swiper';
 
-const Skip = ({...props}) => (
+const Skip = () => (
   <Button title = 'Skip' color = "#000000"/>);
 
 const Next = ({...props}) => (
-  <Button title = 'Next'color = "#000000"{...props}/>);
+  <Button title = 'Next' color = "#000000"{...props}/>);
 
 const Done = ({...props}) => (
-  <Button title = 'Done'color = "#000000"{...props}/>);
+  <Button title = 'Done' color = "#000000"{...props}/>);
 
 const OnboardingScreen = ({navigation}) => {
   return (
@@ -25,13 +25,13 @@ const OnboardingScreen = ({navigation}) => {
           backgroundColor: '#003f5c',
           image: <Image source = { require( `../../../assets/onboarding-img1.png`)} />,
           title: 'Step 1',
-          subtitle: 'Purchase Food Product Online or Physical store'
+          subtitle: 'Purchase Food Product'
         },
         {
           backgroundColor: '#fdeb93',
           image: <Image source = { require( '../../../assets/onboarding-img2.png' )} />,
           title: 'Step 2',
-          subtitle: 'Scan with the App to Authenticate'
+          subtitle: 'Scan the Product with FoodAuth APP'
         },
       ]}
     />
